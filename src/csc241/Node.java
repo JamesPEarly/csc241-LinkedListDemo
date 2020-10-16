@@ -42,9 +42,9 @@ public class Node {
     public String toString() {
         // Check if last last node
         if (next == null) {
-            return "" + value;
+            return "[" + value + "]";
         } else {
-            return value + "\n" + next.toString();
+            return "[" + value + "]" + next.toString();
         }
     }
 
